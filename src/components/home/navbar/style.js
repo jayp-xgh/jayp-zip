@@ -46,4 +46,10 @@ export const Nav = styled.nav`
   .active {
     font-weight: 700;
   }
+
+  @media screen and (max-width: 470px) {
+    .containerNavOpcao {
+      grid-gap: 25px;
+    }
+  }
 `;
