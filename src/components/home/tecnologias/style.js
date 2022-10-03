@@ -1,6 +1,5 @@
-import styled from "styled-components"
+import styled from "styled-components";
 export const ConteudoTecnologias = styled.div`
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,15 +9,14 @@ export const ConteudoTecnologias = styled.div`
   padding-right: 10px;
   width: 100%;
 
-
-   .containerTecnologias{
+  .containerTecnologias {
     display: flex;
     flex-direction: column;
     grid-gap: 50px;
     width: 100%;
-  } 
-  
-  .contaienerTecnologiasStatus{
+  }
+
+  .contaienerTecnologiasStatus {
     width: 100%;
     display: flex;
     align-items: center;
@@ -26,4 +24,10 @@ export const ConteudoTecnologias = styled.div`
     grid-gap: 100px;
     flex-wrap: wrap;
   }
-`
+
+  @media screen and (max-width: 620px) {
+    .contaienerTecnologiasStatus {
+      grid-gap: 25px;
+    }
+  }
+`;

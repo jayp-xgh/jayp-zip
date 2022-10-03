@@ -7,7 +7,7 @@ export const ConteudoHistoria = styled.div`
   justify-content: center;
   grid-gap: max(50px, 5vw);
   width: 100%;
-  
+
   p {
     width: 80%;
     font-weight: 600;
@@ -24,7 +24,7 @@ export const ConteudoHistoria = styled.div`
     background-color: #fff;
     position: relative;
     padding: 5px 15px;
-    width: 350px;
+    width: 300px;
 
     span {
       background: -webkit-linear-gradient(to left, #7c38fc, #5256ff);
@@ -43,5 +43,10 @@ export const ConteudoHistoria = styled.div`
     z-index: -1;
     border-radius: 100px;
     background: linear-gradient(to right, #7c38fc, #5256ff);
+  }
+  @media screen and (max-width: 500px) {
+    .container-cv {
+      width: 200px;
+    }
   }
 `;

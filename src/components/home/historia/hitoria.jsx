@@ -20,7 +20,7 @@ export function Historia() {
         JavaScript/Typescript, desenvolvendo aplicações webs em React.js e Next.js.  Meu objetivo é se tornar referência na área de desenvolvimento, viabilizando a
         criação de softwares que mudam a vida das pessoas.
         <a href="" className="container-cv">
-          <span>Fazer download do currículo</span>
+          <span> Currículo</span>
           <img src="assets/svg/emojiCv.svg" alt="" height="30px" />
         </a>
       </p>
