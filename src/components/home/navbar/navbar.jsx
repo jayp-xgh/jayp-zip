@@ -10,7 +10,7 @@ export function Navbar() {
           <a href="">Docs</a>
           <a href="" className="containerGithub">
             <span>Github</span>
-            <img src="/src/assets/svg/github.svg" alt="" height="30px" />
+            <img src="assets/svg/github.svg" alt="" height="30px" />
           </a>
         </div>
       </Nav>

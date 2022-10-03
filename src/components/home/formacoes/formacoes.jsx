@@ -7,7 +7,7 @@ export function Formacoes() {
     <ConteudoFormacoes>
       <EstiloDeTitulo>
         Formações
-        <img src="/src/assets/svg/formacoes.svg" alt="" height="40px" />
+        <img src="assets/svg/formacoes.svg" alt="" height="40px" />
       </EstiloDeTitulo>
 
       <div className="containerFormacoes">

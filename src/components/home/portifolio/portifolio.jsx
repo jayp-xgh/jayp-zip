@@ -7,10 +7,10 @@ export function Portifolio() {
     <ConteudoPortifolio>
       <EstiloDeTitulo>
         Portifólio
-        <img src="/src/assets/svg/emojiHistoria.svg" alt="" height="40px" />
+        <img src="assets/svg/emojiHistoria.svg" alt="" height="40px" />
       </EstiloDeTitulo>
 
-      <div className="containerConteudoPortifolio">
+      <div   className="containerConteudoPortifolio">
         <div className="conteudoPortifolio"></div>
         <div className="conteudoPortifolio"></div>
         <div className="conteudoPortifolio"></div>

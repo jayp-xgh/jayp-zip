@@ -7,7 +7,7 @@ export function Historia() {
     <ConteudoHistoria>
       <EstiloDeTitulo>
         Historia
-        <img src="/src/assets/svg/emojiHistoria.svg" alt="" height="40px" />
+        <img src="assets/svg/emojiHistoria.svg" alt="" height="40px" />
       </EstiloDeTitulo>
       <p>
         Em 2019 conheci o mundo da programação, fiquei encantado, surpreso com as
@@ -21,7 +21,7 @@ export function Historia() {
         criação de softwares que mudam a vida das pessoas.
         <a href="" className="container-cv">
           <span>Fazer download do currículo</span>
-          <img src="/src/assets/svg/emojiCv.svg" alt="" height="30px" />
+          <img src="assets/svg/emojiCv.svg" alt="" height="30px" />
         </a>
       </p>
     </ConteudoHistoria>
