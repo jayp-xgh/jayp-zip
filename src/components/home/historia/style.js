@@ -6,9 +6,8 @@ export const ConteudoHistoria = styled.div`
   align-items: center;
   justify-content: center;
   grid-gap: max(50px, 5vw);
-  height: 50vh;
   width: 100%;
-
+  
   p {
     width: 80%;
     font-weight: 600;

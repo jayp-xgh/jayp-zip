@@ -8,23 +8,25 @@ export const ConteudoPortifolio = styled.div`
   grid-gap: max(50px, 5vw);
   padding-left: 10px;
   padding-right: 10px;
-  height: 80vh;
   width: 100%;
+  margin-top: 100px;
 
   .containerConteudoPortifolio{
-    background-color: red;
     padding: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     grid-gap: 30px;
-    width: 50%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+    width: 100%;
+    flex-wrap: wrap;
 
     .conteudoPortifolio{
-      background-color: pink;
-      width: 1000px;
-      height: 500px;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 1px #aaaaaa;
     }
   }
 `

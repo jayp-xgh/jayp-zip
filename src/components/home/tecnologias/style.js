@@ -8,7 +8,6 @@ export const ConteudoTecnologias = styled.div`
   grid-gap: max(50px, 5vw);
   padding-left: 10px;
   padding-right: 10px;
-  height: 80vh;
   width: 100%;
 
 
