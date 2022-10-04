@@ -5,9 +5,9 @@ export function Navbar() {
     <div>
       <Nav>
         <div className="containerNavOpcao">
-          <a href="" className="active">Blog</a>
+          <a href="/" className="active">Blog</a>
           <a href="">Portifólio</a>
-          <a href="">Docs</a>
+          <a href="/regex">Docs</a>
           <a href="https://github.com/joaozinhodev" target="_blank"  className="containerGithub">
             <span>Github</span>
             <img src="assets/svg/github.svg" alt="" height="30px" />

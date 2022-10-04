@@ -1,5 +1,5 @@
 import { ConteudoBlog } from "./style";
-export function Blog() {
+export function BlogConteudo() {
   return (
       <ConteudoBlog>
         <div id="blog">

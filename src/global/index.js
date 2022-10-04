@@ -12,13 +12,6 @@ const EstiloGlobal = createGlobalStyle`
     font-size: max(18px, 1.5vw);
     color: #AAAAAA;
   }
-  .App {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -100px;
-  }
   body::-webkit-scrollbar {
     width: 5px;               
   }
