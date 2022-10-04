@@ -9,7 +9,7 @@ export default function AppRoutes() {
     <Router>
       <Switch>
         <Route path="/" exact component={Blog} />
-        <Route path="/regex/" component={Regex} />
+        <Route path="/regex" component={Regex} />
       </Switch>
     </Router>
   );
