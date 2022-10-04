@@ -9,7 +9,7 @@ export function Blog() {
         <p>
           Seja muitíssimo bem-vindo a meu blog!! aqui você poderá conhecer um pouquinho sobre quem sou eu, meus trabalhos e também adquirir conhecimento lendo minhas documentações.
         </p>
-        <a href="" className="containerJoaizinhoDev">
+        <a href="https://www.instagram.com/joaozinhodev/" target="_blank" className="containerJoaizinhoDev">
           <img src="assets/img/minhaFoto.png" alt="" height="40px" />
           <span>
             @joaozinhoDev

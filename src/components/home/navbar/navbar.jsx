@@ -8,7 +8,7 @@ export function Navbar() {
           <a href="" className="active">Blog</a>
           <a href="">Portifólio</a>
           <a href="">Docs</a>
-          <a href="" className="containerGithub">
+          <a href="https://github.com/joaozinhodev" target="_blank"  className="containerGithub">
             <span>Github</span>
             <img src="assets/svg/github.svg" alt="" height="30px" />
           </a>
