@@ -4,7 +4,7 @@ export function BlogConteudo() {
   return (
       <ConteudoBlog>
         <div id="blog">
-          <h1>Blog </h1>
+          <h1 className="notranslate">Blog </h1>
           <img src="assets/svg/emojBlog.svg" alt="" height="60px" />
         </div>
         <p>

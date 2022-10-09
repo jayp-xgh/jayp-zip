@@ -7,7 +7,7 @@ export const LayoutRegex = styled.div`
   flex-direction: column;
   grid-gap: 20px;
   align-items: center;
-  height: 500vh;
+  padding-bottom: 200px ;
 
   .container-titulo{
     width: 100%;
@@ -69,8 +69,7 @@ export const LayoutRegex = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 30px;
-        height: 30px;
+        padding: 5px 10px;
         background-color: #D4E5FF;
         border-radius: 3px;
         font-weight: 700 ;
@@ -78,20 +77,17 @@ export const LayoutRegex = styled.div`
       }
     }
   }
-  .matches{
+  mark{
     position: relative;
     color: #5256ff;
     font-weight: 900;
+    background-color: transparent;
   }
-  .matches::after{
-    content: "^^^^^";
-    color: #5256ff;
-    display: flex;
-    flex-direction:row;
-    width: 120%;
-    left: 0;
-    justify-content: space-between;
-    position: absolute;
-    letter-spacing: 1px;
-  }
+  code{
+    background: #D2D2D2;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #606060;
+    font-weight: 700;
+}
 `;
