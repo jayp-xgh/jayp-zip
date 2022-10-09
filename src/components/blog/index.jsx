@@ -1,4 +1,5 @@
 import { ConteudoBlog } from "./style";
+
 export function BlogConteudo() {
   return (
       <ConteudoBlog>

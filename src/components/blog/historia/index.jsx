@@ -1,6 +1,5 @@
 import { ConteudoHistoria } from "./style";
-import { EstiloDeTitulo } from "../stylesComponents/styleTitulos";
-
+import { EstiloDeTitulo } from "../../titulo";
 
 export function Historia() {
   return (

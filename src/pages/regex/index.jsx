@@ -1,24 +1,11 @@
-import { Navbar } from '../../components/navbar/navbar'
+import { Navbar } from '../../components/navbar'
+import { ContainerRegex } from '../../components/regex'
 
 export function Regex() {
   return (
     <div>
       <Navbar />
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
+      <ContainerRegex />
     </div>
   )
 }

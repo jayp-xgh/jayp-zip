@@ -1,6 +1,5 @@
 import { ConteudoPortifolio } from "./style";
-import { EstiloDeTitulo } from "../stylesComponents/styleTitulos";
-
+import { EstiloDeTitulo } from "../../titulo";
 
 export function Portifolio() {
   return (

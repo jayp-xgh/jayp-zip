@@ -1,4 +1,4 @@
-import { Nav } from "./style";
+import { Nav } from "./style"
 
 export function Navbar() {
   return (

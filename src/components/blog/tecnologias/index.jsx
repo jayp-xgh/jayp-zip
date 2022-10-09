@@ -1,6 +1,5 @@
 import { ConteudoTecnologias } from "./style";
-import { EstiloDeTitulo } from "../stylesComponents/styleTitulos";
-
+import { EstiloDeTitulo } from "../../titulo";
 
 export function Tecnologias() {
   return (

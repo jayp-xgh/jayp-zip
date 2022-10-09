@@ -1,6 +1,5 @@
 import { ConteudoFormacoes } from "./style";
-import { EstiloDeTitulo } from "../stylesComponents/styleTitulos";
-
+import { EstiloDeTitulo } from "../../titulo";
 
 export function Formacoes() {
   return (
