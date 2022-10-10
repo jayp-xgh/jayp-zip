@@ -376,13 +376,13 @@ export function ContainerRegex() {
           - Resident Evil 2 remake: R$ 140,50; <br />
           ` <br />
           const regex = /(R\$)\s(\d*,\d*)/gim <br />
-          const funcao = (match, p1, p2) ${' => {'} <br />
+          const funcao = (match, p1, p2) {'=> {'} <br />
           const real = parseFloat(p2.replace(/,/g, ".")) <br />
           const cotacao = 4.21 <br />
           const dolar = (real / cotacao).toFixed(2) <br />
           const result = dolar.toString().replace(/\./g, ",") <br />
-          return `US$ ${'{result}`'}  <br />
-          ${'}'} <br />
+          return `US$ ${'{result}'}  <br />
+          {'}'} <br />
           console.log(texto.replace(regex, funcao)) <br />
         /* <br />
           - Red dead redeption 2: US$ 42,76; <br />
