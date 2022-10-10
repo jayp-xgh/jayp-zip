@@ -313,10 +313,102 @@ export function ContainerRegex() {
           Dentro dos grupos especiais ainda temos os <mark> positive lookbehind e negative lookbehind</mark>, porém como eles não possuem um bom suporte nos <mark>browsers</mark> decidi deixá-lo de fora deste post, porém pretendo abordá-los em post futuros.
         </p>
         <EstiloDeTitulo>Métodos de regex no js</EstiloDeTitulo>
-        <EstiloDeTitulo>Continua.......</EstiloDeTitulo>
-        {/* <p>
+        {/* <EstiloDeTitulo>Continua.......</EstiloDeTitulo> */}
+        <p>
           O objeto regex possui dois métodos: <code>exec</code> e <code>test</code>. Já com string possui 4 métodos: <code>match</code>, <code>replace</code>, <code>search</code> e <code>split</code>. Porém neste post vou me ater somente a 3 métodos: test, match e replace.
-        </p> */}
+        </p>
+        <EstiloDeTitulo>Test</EstiloDeTitulo>
+        <p>
+          Usado para verificar se uma regex da match com uma string. Ela retorna sempre valor <mark>boolean</mark>. Este método é ideal para fazer <mark>validações</mark> como por exemplo validar se um email, telefone ou data estão corretos. Vejamos um exemplo validando números de telefone:
+        </p>
+        <p className="code">
+          const regex = /(\((\d{2})\)\s?)?(\d${'{4, 5}'})[-]?(\d{4})/gm <br />
+          <br />
+          console.log(regex.test("(77) 95684-9783")) //true  <br />
+          console.log(regex.test("(68)90499-9922")) //false  <br />
+          console.log(regex.test("95088-2649")) //true
+        </p>
+        <EstiloDeTitulo>Match</EstiloDeTitulo>
+        <p>
+          Ele retorna um array, com as string que deram match com a regex. Se não houver valor, ele retorna <mark>null</mark>. Vejamos um exemplo procurando cep validos em um texto:
+        </p>
+        <p className="code">
+          const text = ` <br />
+          - 58204-824 <br />
+          - 69337-978 <br />
+          - 69.938-863 <br />
+          - 7287498 <br />
+          ` <br />
+          const regex = /(\d${'{2}'}[.]?\d${'{3}'})[-]?(\d${'{3}'})/gm <br />
+          console.log(text.match(regex)) <br />
+        // [ '58204-824', '69337-978', '69.938-863']
+        </p>
+        <p>
+          Vejamos acima que o último número não foi pego no match, pois ele não é um cep válido.
+        </p>
+        <EstiloDeTitulo>Replace</EstiloDeTitulo>
+        <p className="code">
+          Usado para <mark>substituir</mark> strings que deram match por uma nova string. Segue um exemplo:
+        </p>
+        <p className="code">
+          const text = "É só o amor, é só o amor Que conhece o que é verdade" <br /><br />
+          const regex = /o\samor/gi <br />
+          console.log(text.replace(regex, "a dor")) <br />
+        //É só a dor, é só a dor Que conhece o que é verdade <br />
+        </p>
+        <p>
+          Podemos ainda manipular grupos. Vejamos um exemplo:
+        </p>
+        <p className="code">
+          const text = "2019-26-09" <br />
+          const regex = /(\d${'{4}'})-(\d${'{2}'})-(\d${'{2}'})/g <br />
+          console.log(text.replace(regex, "$2/$3/$1")) <br />
+        // 26/09/2019
+        </p>
+        <p>
+          Um recurso legal do replace é que podemos passar uma função em vez da string de substituição. Isso ainda nos dá mais possibilidades de alteração em algum texto que queremos substituir algo. Vejamos um exemplo:
+        </p>
+        <p className="code">
+          const texto = ` <br />
+          Lista de jogos: <br />
+          - Red dead redeption 2: R$ 180,00; <br />
+          - The last of us 2: R$ 199,95; <br />
+          - Resident Evil 2 remake: R$ 140,50; <br />
+          ` <br />
+          const regex = /(R\$)\s(\d*,\d*)/gim <br />
+          const funcao = (match, p1, p2) ${' => {'} <br />
+          const real = parseFloat(p2.replace(/,/g, ".")) <br />
+          const cotacao = 4.21 <br />
+          const dolar = (real / cotacao).toFixed(2) <br />
+          const result = dolar.toString().replace(/\./g, ",") <br />
+          return `US$ ${'{result}`'}  <br />
+          ${'}'} <br />
+          console.log(texto.replace(regex, funcao)) <br />
+        /* <br />
+          - Red dead redeption 2: US$ 42,76; <br />
+          - The last of us 2: US$ 47,49; <br />
+          - Resident Evil 2 remake: US$ 33,37; <br />
+          */
+        </p>
+        <EstiloDeTitulo>Conclusão</EstiloDeTitulo>
+        <p>
+          Chegamos ao fim, o estudo de regex é muito interessante, sendo que possível fazer muitas coisas em diferentes linguagens. Fiz uma extensa lista de diversos problemas resolvidos com regex, confira abaixo:
+        </p>
+        <EstiloDeTitulo>Referências:</EstiloDeTitulo>
+        <ul className="container-flags">
+          <li>
+            <span>•</span>
+            <a target='_blank' href="https://flaviocopes.com/javascript-regular-expressions/" className="sublinhado">A guide to JavaScript Regular Expressions</a>
+          </li>
+          <li>
+            <span>•</span>
+            <a target='_blank' href="https://flaviocopes.com/javascript-regular-expressions/" className="sublinhado">20 Small Steps to Become a Regex Master</a>
+          </li>
+          <li>
+            <span>•</span>
+            <a target='_blank' href="https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285" className="sublinhado">Regex tutorial — A quick cheatsheet by examples</a>
+          </li>
+        </ul>
       </div>
     </LayoutRegex>
   )
