@@ -1,6 +1,8 @@
 <div align="center">
+
+![IMG_3362 1](https://user-images.githubusercontent.com/90224100/201230181-ebd5cad3-ddd4-4f30-904c-349bcccf3772.png)
+
   
-![e](https://user-images.githubusercontent.com/90224100/198839403-57bb11e4-2a00-4c2c-b947-c340e45bf88c.png)
   <h1 align="center">JoaozinhoDev🐧</h1>
 </div>
 <p>
