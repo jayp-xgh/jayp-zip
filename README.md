@@ -1,7 +1,6 @@
 <div align="center">
 
-
-  ![Imagem 1](https://user-images.githubusercontent.com/90224100/201502145-a4496c04-f325-4afb-ae40-5d0781d7b760.png)
+![Imagem (1) 1](https://user-images.githubusercontent.com/90224100/201703551-ec3d012c-a275-4645-bbc8-65e1de630dcb.png)
 
   <h1 align="center">JoaozinhoDev!</h1>
 </div>
