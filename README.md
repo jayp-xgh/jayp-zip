@@ -1,7 +1,4 @@
 <div align="center">
-
-![Imagem (1) 1](https://user-images.githubusercontent.com/90224100/201703551-ec3d012c-a275-4645-bbc8-65e1de630dcb.png)
-
   <h1 align="center">Jayp!</h1>
 </div>
 <p>
@@ -9,3 +6,8 @@
 </p>
 
 Acesse meu: [**Portifólio🤖**](https://joaozinhodev.vercel.app/)
+
+<div align="center">
+  <p align="centre"><b>Visitas</b></p>  
+  <p align="center"><img align="center" src="https://profile-counter.glitch.me/{jayp-zip}/count.svg" /></p> 
+</div>
