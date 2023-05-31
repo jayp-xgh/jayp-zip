@@ -1,13 +1,1 @@
-<div align="center">
-  <h1 align="center">Jayp!</h1>
-</div>
-<p>
-  Seja muitíssimo bem-vindo a meu github!! aqui você poderá conhecer um pouquinho sobre quem sou eu, meus trabalhos e também adquirir conhecimento lendo minhas       documentações.
-</p>
-
-Acesse meu: [**Portifólio🤖**](https://joaozinhodev.vercel.app/)
-
-<div align="center">
-  <p align="centre"><b>Visitas</b></p>  
-  <p align="center"><img align="center" src="https://profile-counter.glitch.me/{jayp-zip}/count.svg" /></p> 
-</div>
+![Metrics](https://metrics.lecoq.io/jayp-zip?template=classic&isocalendar=1&languages=1&lines=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&config.timezone=America%2FSao_Paulo)
